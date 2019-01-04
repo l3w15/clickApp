@@ -1,9 +1,11 @@
 # clickApp
 
-## To run
-
-Clone this repo
+## To run:
+You will need to have an up-to-date version of Node.js installed on your system, and install ionic globally.
+Clone this repo.
 ```bash
+$ npm install -g ionic
+$ cd clickApp
 $ npm install
 $ ionic serve
 ```
@@ -15,4 +17,4 @@ The app should open in the browser. The clicker is on Tab Two.
 ```bash
 $ ionic serve -c
 ```
-You be able to use the app on your device in the app.
+You should be able to view clickApp on your device in the Ionic DevApp.
