@@ -1,13 +1,15 @@
 # clickApp
 
 ## To run
+
+Clone this repo
 ```bash
 $ npm install
 $ ionic serve
 ```
 The app should open in the browser. The clicker is on Tab Two. 
 
-To view on your device:
+## To view on your device:
 - Download the Ionic DevApp on a device
 - Have your laptop and device on the same network 
 ```bash
