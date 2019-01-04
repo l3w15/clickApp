@@ -18,12 +18,16 @@
   </ion-card>
   <ion-grid>
     <ion-row>
-      <ion-col></ion-col>
-      <ion-col>
-        <ion-button id="clicker" color="secondary" (click)="incrementCounter()">Click me!</ion-button>
+      <ion-col class="col-sm column"></ion-col>
+      <ion-col class="col-sm column">
+        <ion-button 
+          [color]="isDanger? 'danger' : 'tertiary'" 
+          (click)="clickFunctions()">
+          Click me!
+        </ion-button>
         <h4>Count: {{ counter }}</h4>
       </ion-col>
-      <ion-col></ion-col>
+      <ion-col class="col-sm column"></ion-col>
     </ion-row>
   </ion-grid>
 </ion-content>
